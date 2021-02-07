@@ -50,7 +50,7 @@ for t in np.r_[0:2:MODEL_DT]:
     for b in bodies:
         b.advance()
         
-%matplotlib inline
+# %matplotlib inline
 from matplotlib import pyplot as pp
 
 for b in bodies:
