@@ -18,7 +18,7 @@ def my_asin(x):
 print(math.asin(0.4))
 print(my_asin(0.4))
 
-%matplotlib inline
+# %matplotlib inline
 from IPython.display import set_matplotlib_formats
 set_matplotlib_formats('pdf', 'svg')
 
