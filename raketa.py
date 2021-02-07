@@ -55,3 +55,4 @@ from matplotlib import pyplot as pp
 
 for b in bodies:
     pp.plot(b.trajectory_x, b.trajectory_y)
+pp.show()
