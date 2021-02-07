@@ -26,6 +26,7 @@ vs = np.vectorize(my_asin)
 print(my_asin, vs)
 
 angles = np.r_[-1:1:0.001]
+plt.plot(angles, np.arcsin(angles), linewidth=5, color = 'blue')
 plt.plot(angles, np.arcsin(angles))
 plt.plot(angles, vs(angles))
 
